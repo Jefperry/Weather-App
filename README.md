@@ -13,13 +13,6 @@ A simple and modern weather application that allows users to search for any city
 - **User-Friendly UI:** Simple input and visually appealing weather card.
 
 ---
-
-## Demo
-
-![Weather App Screenshot](screenshot.png)
-
----
-
 ## Getting Started
 
 ### 1. Clone the Repository
