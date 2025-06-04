@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Weather App</h1>
+      <p>Search a Location and get its current weather Information.</p>
+      <input type="text" id="location" placeholder="Enter location" />
+      <button onclick="getWeather()">Get Weather</button>
+      <button onclick="clearWeather()">Clear</button>
+      <!-- Weather Card -->
+      <div id="weather-card" class="weather-card" style="display: none">
+        <div class="weather-main">
+          <span id="weather-icon"></span>
+          <span id="temperature"></span>
+          <span id="description"></span>
+        </div>
+        <div class="weather-details">
+          <span id="humidity"></span>
+          <span id="wind"></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
