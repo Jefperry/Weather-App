@@ -92,12 +92,12 @@ function getWeather() {
 
 ## Troubleshooting
 
-- **No weather info appears:**  
+- No weather info appears:
   - Check the browser console for errors (F12 > Console).
   - Make sure your API key is correct and active.
   - Ensure your HTML and script tags are properly closed.
 
-- **Icons not showing:**  
+- Icons not showing: 
   - Check the path to your icons in `script.js`.
   - Make sure the icon files exist in the specified folder.
 
