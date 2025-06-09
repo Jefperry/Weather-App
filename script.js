@@ -10,7 +10,7 @@ document.getElementById("weather").style.backgroundRepeat = "no-repeat";
 // This function fetches weather data from the OpenWeatherMap API
 function getWeather() {
   const location = document.getElementById("location").value;
-  const apiKey = "4b527f645b54fdd9621f02ae69ad1366";
+  const apiKey = "Your API Key";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
 
   fetch(url)
